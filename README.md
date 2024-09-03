@@ -26,7 +26,10 @@ Scans a PCAP file looking for anomalies.
 ## INSTALL
 
 ```
-git remote add origin http://gitlab.redcrowlab.com/asclark/rcpcapscan.git
+git clone http://gitlab.redcrowlab.com/asclark/rcpcapscan.git
+
+pip install -r requirements.txt
+
 ```
 
 ## USAGE
