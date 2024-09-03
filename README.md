@@ -30,6 +30,7 @@ git clone http://gitlab.redcrowlab.com/asclark/rcpcapscan.git
 
 pip install -r requirements.txt
 
+Requires the GeoLite2 City database.
 ```
 
 ## USAGE
