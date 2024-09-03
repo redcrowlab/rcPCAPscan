@@ -21,8 +21,7 @@ Scans a PCAP file looking for anomalies.
 - Detect DNS tunneling
 - Detect ARP spoofing
 - Detect memory corruption
-- Detect SSL/TLS anomalies
-- 
+- Detect SSL/TLS anomalies 
 
 ## INSTALL
 
