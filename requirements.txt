@@ -1,0 +1,7 @@
+pyshark
+scapy
+numpy
+requests
+geoip2
+dnspython
+cryptography
