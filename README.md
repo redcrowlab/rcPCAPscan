@@ -83,6 +83,11 @@ python rcPCAPscan.py your_pcap_file.pcap --detect-memory-corruption
 python rcPCAPscan.py your_pcap_file.pcap --detect-memory-corruption --max-payload-size 2000 --shellcode-threshold 0.7
 ```
 
+Example to run all scans:
+```
+python rcPCAPscan.py --detect-beacons --threshold 0.9 --min-occurrences 5 --min-interval 1  --detect-scans --ping-threshold 5 --port-scan-threshold 10 --time-window 60 --detect-shell-commands --command-threshold 1 --detect-credentials --count-connections --count-traffic --detect-protocol-anomalies --analyze-ttl --ttl-threshold 5 --list-endpoints --detect-dns-tunneling --dns-entropy-threshold 3.5 --dns-query-threshold 10 --detect-arp-spoofing --arp-time-window 1 --detect-memory-corruption
+```
+
 ### Example generator usages
 
 Example scripts are included for simulating or generating the type of traffic rcPCAPscan detects.
